@@ -1,23 +1,11 @@
- "# gitlearn" 
-recommended gitlab
-
-git init . (use to indicate where it has been initiilized locate repository)
-git add    (add all the changes made in repository)
-git add . <file name> (add only static file name)
-git commit -m "first commit"  (theoritically commit conceptually work as a save or storage purpose)
-git branch -M main
-git remote add origin https://github.com/anilghale1/gitlearn.git
-git push -u origin main
-
-git config -- list (List of commands and check whether username and usermail are already exist or not)
-git status (list all changes done in repo) (check current status what changes are done over there whether that is commited or not).
-clear     (clear the screen)
-git log (display all the commited files detect whether commited or not or what is commited)
-
-
 
  "# gitlearn" 
 recommended gitlab
+1st pull then push
+we cannot push in main branch i.e master
+
+git config --global user.name
+git config --global user.email
 
 git init . (use to indicate where it has been initiilized locate repository)
 git add    (add all the changes made in repository)
@@ -39,5 +27,26 @@ remote--> github repo
 
 control panel-->user acount-->manage windows
 
-git ceckout -b dev  (new branch created) when master branch doesnot work 
+git checkout -b dev  (new branch created) when master branch doesnot work 
 git push origin dev  (send repository to the dev branch)
+
+git clone "url"
+
+git branch
+git checkout (branch name) (main traansfer branch)
+git branch    (check in which branch you are)
+git checkout -b develop  (checkout with new branch or created new one)
+git checkout dev          (gone to dev branch)
+git ceckout -d develop (delete branch not possible frm same branch)
+
+commit works as a report so be sensitive in it
+
+git pull origin dev 
+ls--> show file
+
+git checkout branch_name--> clone according to branch name on local server
+
+git clone from other repository --> must create terminal on another folder or simply change branch in which branch collabrator has work on)
+
+git pull origin develop --> fatal error if there is no branch name develop in collaborator
+solution to it -->  git push origin master --> it helps to create new branch as well as push file to live repo
